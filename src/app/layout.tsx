@@ -103,9 +103,11 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="border-b container mx-auto">
           <div className="flex h-16 items-center px-4 container mx-auto">
-            <h1 className="font-serif font-bold rounded-full text-lg  bg-gradient-to-r from-slate-300 via-purple-300 to-slate-400">
-              &nbsp;&nbsp;&nbsp;&nbsp;Photo Ark&nbsp;&nbsp;&nbsp;&nbsp;
-            </h1>
+            <Link href={"/"}>
+              <h1 className="font-serif font-bold rounded-full text-lg  bg-gradient-to-r from-slate-300 via-purple-300 to-slate-400">
+                &nbsp;&nbsp;&nbsp;&nbsp;Photo Ark&nbsp;&nbsp;&nbsp;&nbsp;
+              </h1>
+            </Link>
 
             {/* <TeamSwitcher />
             <MainNav className="mx-6" /> */}
