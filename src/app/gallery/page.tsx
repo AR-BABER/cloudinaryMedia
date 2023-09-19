@@ -1,12 +1,13 @@
 import { CldImage, CldUploadButton } from "next-cloudinary";
 import React, { useState } from "react";
-import UploadButton from "./UploadButton";
+
 import cloudinary from "cloudinary";
 import CloudImage from "../../components/CoudImage";
 import ForceRefresh from "@/components/ForceRefresh";
 import { ImageGrid } from "@/components/image-grid";
 import { Search } from "lucide-react";
 import { SearchForm } from "./SearchForm";
+import UploadButton from "./UploadButton";
 
 export type SearchResult = {
   public_id: string;
