@@ -22,7 +22,9 @@ async function favorites() {
       <ForceRefresh />
       <div className=" flex flex-col gap-8 ">
         <div className="flex justify-between px-4 py-2">
-          <h1 className="text-4xl font-bold">Favorite Images</h1>
+          <h1 className="text-4xl font-bold bg-gradient-to-r from-red-400 via-slate-300 to-yellow-300 px-3 rounded-full">
+            Favorite Images
+          </h1>
         </div>
 
         <FavoritesList initresources={results.resources} />

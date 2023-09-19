@@ -115,9 +115,9 @@ export default function RootLayout({
                   src="https://github.com/shadcn.png"
                   alt="@shadcn"
                 />
-                <AvatarFallback>CN</AvatarFallback>
+                <AvatarFallback></AvatarFallback>
               </Avatar>
-              world
+
               {/* <Search />
               <UserNav />
             */}
