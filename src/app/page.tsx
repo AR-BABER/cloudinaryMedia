@@ -57,7 +57,7 @@ export default function Home() {
             Security & Scalability
           </h2>
           <p className="text-gray-700 mb-6">
-            Trust in Cloudinary's robust security measures. Whether you have a
+            Trust in Cloudinarys robust security measures. Whether you have a
             small blog or a global enterprise, we scale with you, ensuring your
             media is safe and accessible.
           </p>
