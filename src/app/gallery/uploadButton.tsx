@@ -5,7 +5,7 @@ import { CldUploadButton } from "next-cloudinary";
 import { useRouter } from "next/navigation";
 import React from "react";
 
-function uploadButton() {
+function UploadButton() {
   const router = useRouter();
   return (
     <div>
@@ -41,4 +41,4 @@ function uploadButton() {
   );
 }
 
-export default uploadButton;
+export default UploadButton;
