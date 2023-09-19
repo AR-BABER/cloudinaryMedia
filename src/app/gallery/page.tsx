@@ -7,7 +7,7 @@ import ForceRefresh from "@/components/ForceRefresh";
 import { ImageGrid } from "@/components/image-grid";
 import { Search } from "lucide-react";
 import { SearchForm } from "./SearchForm";
-import { UploadButton } from "./UploadButton";
+import { UploadButton } from "./Button";
 
 export type SearchResult = {
   public_id: string;
